@@ -1,9 +1,8 @@
-#Comment
 pipeline {
      agent { label 'java' }
 
     stages {
-        stage('git clone') {
+        stage('git clone here') {
             steps {
               git 'https://github.com/Kumarbgm16/java-azure-project.git'
             }
