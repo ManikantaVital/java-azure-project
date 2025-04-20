@@ -2,7 +2,7 @@ pipeline {
      agent { label 'java' }
 
     stages {
-        stage('git clone here') {
+        stage('git clone here happen') {
             steps {
               git 'https://github.com/Kumarbgm16/java-azure-project.git'
             }
